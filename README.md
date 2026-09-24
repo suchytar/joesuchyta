@@ -9,8 +9,8 @@ Static one-page site. Plain HTML/CSS, no build step.
 
 1. Repo → Settings → Pages → Source: **Deploy from a branch**, branch `main`, folder `/ (root)`.
    The site goes live at `https://suchytar.github.io/joesuchyta/`.
-2. In the same Pages settings, enter the custom domain (for example `joesuchyta.com`) and save.
-   GitHub adds a `CNAME` file to the repo. After DNS resolves, turn on **Enforce HTTPS**.
+2. In the same Pages settings, enter the custom domain `joesuchyta.com` and save.
+   (The repo already has a `CNAME` file with this domain.) After DNS resolves, turn on **Enforce HTTPS**.
 3. In Porkbun → Domain Management → your domain → **DNS**, delete the default parking
    records (the `ALIAS`/`CNAME` pointing at `pixie.porkbun.com`), then add:
 
